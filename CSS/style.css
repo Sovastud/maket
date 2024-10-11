@@ -1,0 +1,53 @@
+#menu {
+	display: flex;
+}
+#menu a {
+	margin-right: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid green;
+	background-color: green;
+}
+#menu a:hover, #menu a.active {
+	color: green;
+	border: 1px solid green;
+	background-color: white;
+}
+
+#menu1 {
+	display: flex;
+}
+#menu1 a {
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid green;
+	background-color: green;
+}
+#menu1 a:hover, #menu1 a.active1 {
+	color: white;
+	border: 1px solid green;
+	background-color: rgb(3, 107, 3);
+}
+
+#menu2 {
+	display: grid;
+}
+#menu2 a {
+    width: 200px;
+    margin-bottom: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid green;
+	background-color: green;
+}
+#menu2 a:hover, #menu2 a.active2 {
+	color: green;
+	border: 1px solid green;
+	background-color: white;
+}
